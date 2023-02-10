@@ -10,7 +10,8 @@ if (oxy_builder == "true") {
   // Making the page direction LTR will ensure that the builder itself will show up correctly
   // While the page's content will remain RTL
   // It works!
+
   document
-    .querySelector('html[ng-app="CTFrontendBuidlerUI"]')
+    .querySelector('html[ng-app="CTFrontendBuilderUI"]')
     .setAttribute("dir", "ltr");
 }
